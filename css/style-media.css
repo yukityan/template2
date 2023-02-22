@@ -1,0 +1,71 @@
+@media screen and (max-width: 767px) {
+  .header__burger {
+    display: block;
+  }
+
+  .header__nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #282828;
+    padding: 150px 75px;
+    flex-direction: column;
+    z-index: 10;
+    transform: translateX(100%);
+    transition: 0.2s all;
+  }
+
+  .header__nav_active{
+    transform: translateX(0%);
+  }
+
+  .header-wrapper__two li {
+    width: 100%;
+
+    border: none;
+  }
+
+  .header-wrapper__two a {
+    font-size: 50px;
+    border: 2px solid #fff;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+  }
+
+  .header__link:hover {
+    color: #998431;
+  }
+
+  .header-nav__close {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 30px;
+    right: 60px;
+    z-index: 50;
+  }
+
+  .header-nav__close-line {
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    transform: translateY(-50%);
+  }
+
+  .header-nav__close-line:first-child {
+    transform: rotate(45deg);
+  }
+
+  .header-nav__close-line:last-child {
+    transform: rotate(-45deg);
+  }
+}

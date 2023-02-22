@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:wght@400;600;800&display=swap" rel="stylesheet">
 <body>
-    <header>
+    <header class="header">
         <div class="main-container">
             <div class="header-wrapper">
                 <div class="header-wrapper__one">
@@ -20,9 +21,15 @@
                     <p>
                         8 (812) 123-45-67
                     </p>
+
+                <div class="header__burger">
+                    <span class="burger__line burger__line-first"></span>
+                    <span class="burger__line burger__line-second"></span>
+                    <span class="burger__line burger__line-thrid"></span>
                 </div>
-                <div class="header-wrapper__two">
-                    <ul>
+                </div>
+                <nav class="header-wrapper__two">
+                    <ul class="header__nav">
                         <li>
                             <a class="header__link" href="#">Каталог</a>
                         </li>
@@ -35,8 +42,14 @@
                         <li>
                             <a class="header__link" href="#">Контакты</a>
                         </li>
+
+                        <div class="header-nav__close">
+                            <span class="header-nav__close-line"></span>
+                            <span class="header-nav__close-line"></span>
+                        </div>
                     </ul>
-                </div>
+
+                </nav>
             </div>
         </div>
     </header>
@@ -122,9 +135,81 @@
                 <div class="line-decoration"></div>
             </div>            
         </section>
-
-
+        <section class="for-record">
+            <div class="main-container">
+                <div class="for-record__wrapper">
+                    <h2>
+                        Запись на дегустацию
+                    </h2>
+                    <div class="for-record__line"></div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. 
+                    </p>
+                    <form action="">
+                        <div class="record__input">
+                            <input class="record__name" type="text" placeholder="Имя">
+                            <input class="record__tel" type="tel" placeholder="Телефон">
+                        </div>
+                        <input class="record__adress"type="text" placeholder="Бутик на Невском 103">                      
+                        <button>записаться</button>                   
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
-    
+
+    <footer>
+        <div class="main-container">
+            <div class="footer-wrapper">
+                <div class="footer-wrapper__one">
+                    <ul>
+                        <li>
+                            <a class="footer-one__link" href="#">Главная</a>
+                        </li>
+                        <li>
+                            <a class="footer-one__link" href="#">Каталог</a>
+                        </li>
+                        <li>
+                            <a class="footer-one__link" href="#">Поставщики</a>
+                        </li>
+                        <li>
+                            <a class="footer-one__link" href="#">Коллекции</a>
+                        </li>
+                        <li>
+                            <a class="footer-one__link" href="#">Дегустация</a>
+                        </li>
+                        <li>
+                            <a class="footer-one__link" href="#">Коллекция 2020</a>
+                        </li>
+                        <li>
+                            <a class="footer-one__link" href="#">Контакты</a>
+                        </li>
+                    </ul>
+              
+                </div>
+                <div class="footer-wrapper__two">
+                    <ul>
+                        <li>
+                            <a class="footer__link" href="#">винный бутик LE CORTE</a>
+                        </li>
+                        <li>
+                            <a class="footer__link" href="#">8 (812) 123-45-67</a>
+                        </li>
+                        <li class="sotial-link">
+                            <a class="footer__link" href="#"><img id="youtube" src="img/youtube.png" alt="youtube"></a>
+                            <a class="footer__link" href="#"><img id="vk"src="img/vk.png" alt="vk"></a>
+                            <a class="footer__link"   href="#"><img src="img/facebook.png" alt="f"></a>
+                        </li>
+                        <li>
+                            <a class="footer__link" href="#">© le-corte.ru</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>
