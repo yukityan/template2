@@ -1,3 +1,275 @@
+@media screen and (max-width: 1172px) {
+  .for-record__wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .for-record__wrapper:before {
+    width: 220px;
+    height: 220px;
+  }
+  .for-record__wrapper:after {
+    width: 220px;
+    height: 190px;
+  }
+
+  .for-record__wrapper h2 {
+    font-size: 30px;
+    line-height: 120%;
+    padding: 10px 40px;
+    margin-top: -52px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .main-container {
+    max-width: 1000px;
+  }
+
+  .about-vine__wrapper {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px 187px;
+  }
+
+  .about-vine__wrapper h2 {
+    margin-bottom: 40px;
+  }
+
+  .new-collection {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .new-coll__block1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .new-coll__block2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 20px;
+  }
+
+  .new-coll__block1 h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    max-width: 310px;
+  }
+  .new-coll__block1 p {
+    font-size: 14px;
+    line-height: 150%;
+    max-width: 445px;
+    margin-bottom: 20px;
+  }
+
+  .for-record {
+    padding-bottom: 50px;
+  }
+
+  footer {
+    padding: 35px 0;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .new-coll__block1 h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    max-width: 285px;
+  }
+  .new-coll__block1 p {
+    max-width: 410px;
+    margin-bottom: 10px;
+    line-height: 146%;
+  }
+
+  .new-coll__block1 table {
+    max-width: 410px;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .new-coll__block1 span {
+    font-size: 16px;
+  }
+
+  .for-record__wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .new-coll__block1 button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .for-record__wrapper:before {
+    width: 200px;
+    height: 200px;
+  }
+  .for-record__wrapper:after {
+    width: 200px;
+    height: 170px;
+  }
+
+  .for-record__wrapper h2 {
+    font-size: 28px;
+    line-height: 120%;
+    padding: 10px 40px;
+    margin-top: -52px;
+    margin-bottom: 20px;
+  }
+
+  .for-record__line {
+    margin-bottom: 30px;
+  }
+
+  .for-record__wrapper p {
+    margin: 0 auto 50px;
+    font-size: 14px;
+  }
+
+  .for-record__wrapper button {
+    margin-bottom: 45px;
+  }
+
+  .footer-wrapper__one ul {
+    height: 45px;
+  }
+
+  .footer-wrapper__two ul {
+    height: 45px;
+  }
+
+  .footer-wrapper__two li {
+    height: 45px;
+  }
+
+  .footer-wrapper__two li:first-child {
+    padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 888px) {
+  .about-vine__wrapper {
+    padding: 60px 110px;
+  }
+
+  .new-coll__block1 h2 {
+    font-size: 26px;
+    line-height: 120%;
+  }
+
+  .for-record__wrapper:before {
+    width: 180px;
+    height: 180px;
+    left: -15px;
+  }
+  .for-record__wrapper:after {
+    width: 180px;
+    height: 150px;
+    right: -15px;
+    top: -35px;
+  }
+
+  .footer-wrapper__two a {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 825px) {
+  .new-collection__wrapper {
+    display: block;
+  }
+
+  .new-coll__block1 {
+    max-width: 98%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .new-coll__block1 h2 {
+    font-size: 36px;
+    line-height: 130%;
+    margin-bottom: 30px;
+    max-width: 320px;
+  }
+
+  .line-decoration-min {
+    width: 240px;
+    background-color: #282828;
+    height: 1px;
+    margin-bottom: 15px;
+  }
+
+  .new-coll__block1 p {
+    line-height: 150%;
+    max-width: 96%;
+    margin-bottom: 15px;
+  }
+
+  .new-coll__block1 table {
+    max-width: 70%;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 150%;
+  }
+  .new-coll__block2 {
+    padding-bottom: 0px;
+    max-width: 98%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 35px;
+  }
+
+  .new-coll__pic1 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+  }
+
+  .new-coll__pic2 {
+    grid-column: 3/ 4;
+    grid-row: 1 / 2;
+  }
+
+  .new-coll__pic2 {
+    grid-column: 3 / 4;
+    grid-row: 2/ 2;
+  }
+
+  .new-coll__block1 button {
+    padding: 15px 30px;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .line-decoration__midle {
+    display: block;
+  }
+
+  .line-decoration__last {
+    display: none;
+  }
+
+  .for-record__wrapper h2 {
+    font-size: 24px;
+    line-height: 120%;
+    padding: 10px 30px 0;
+    margin-top: -46px;
+    margin-bottom: 30px;
+  }
+
+  
+}
+
 @media screen and (max-width: 767px) {
   .header__burger {
     display: block;
@@ -17,7 +289,7 @@
     transition: 0.2s all;
   }
 
-  .header__nav_active{
+  .header__nav_active {
     transform: translateX(0%);
   }
 
@@ -68,4 +340,93 @@
   .header-nav__close-line:last-child {
     transform: rotate(-45deg);
   }
+
+  .about-vine__wrapper {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  .about-vine__wrapper h2 {
+    margin-bottom: 30px;
+  }
+
+  .about-vine__wrapper p {
+    font-size: 14px;
+    line-height: 140%;
+  }
+
+  .for-record__wrapper:before {
+    width: 140px;
+    height: 140px;
+    left: -15px;
+    top: -53px;
+  }
+  .for-record__wrapper:after {
+    width: 140px;
+    height: 110px;
+    right: -15px;
+    top: -35px;
+  }
+
+
+
+  .for-record__line {
+    margin-bottom: 30px;
+  }
+
+  .for-record__wrapper p {
+    margin: 0 auto 35px;
+    font-size: 14px;
+  }
+
+  .for-record__wrapper button {
+    margin-bottom: 30px;
+  }
+
+  .footer-wrapper__one li:first-child {
+    padding-left: 0px;
+  }
+
+  .footer-wrapper__one li:last-child {
+    padding-right: 10px;
+  }
+
+  #youtube, #vk {
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: 736px){
+  .for-record {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+
+
+.for-record__wrapper form {
+  max-width: 500px;
+}
+
+.for-record__wrapper input {
+  margin-bottom: 25px;
+}
+
+.record__name,
+.record__tel {
+  max-width: 235px;
+}
+
+.for-record__wrapper button {
+  width: 500px;
+  padding: 12px 0;
+  font-size: 15px;
+}
+
+.footer-wrapper__two a{
+  font-size: 11px;
+}
+
+
+  
 }
